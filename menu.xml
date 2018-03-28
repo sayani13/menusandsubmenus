@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+<item android:id="@+id/courses"
+    android:icon="@drawable/sample"
+    android:title="courses"
+    />
+
+    <item android:visible="true"
+        android:id="@+id/m_area"
+        android:title="Areas"
+        android:enabled="true">
+        <menu>
+            <item android:id="@+id/item1"
+                android:title="Placeholder">
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/admission"
+        android:icon="@drawable/download"
+        android:title="admission"
+        />
+
+    <item android:id="@+id/faculty"
+        android:icon="@drawable/download"
+        android:title="faculty"
+
+        />
+    <item android:id="@+id/contact_us"
+        android:icon="@drawable/images"
+        android:title="contact us"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/about_us"
+        android:icon="@drawable/help"
+        android:title="about_us"
+         android:showAsAction="always"
+
+        />
+
+    <item android:id="@+id/homepage"
+        android:icon="@drawable/hp"
+        android:title="homepage"
+        android:showAsAction="always"
+        />
+
+
+</menu>
